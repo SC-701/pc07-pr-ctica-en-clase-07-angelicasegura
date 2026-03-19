@@ -42,6 +42,7 @@ namespace Abstracciones.Modelo
         public string SubCategoria { get; set; }
         public string Categoria { get; set; }
         public decimal PrecioUSD { get; set; }
+
     }
 
     
