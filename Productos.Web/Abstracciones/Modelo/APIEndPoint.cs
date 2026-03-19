@@ -4,9 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Abstracciones.Modelo
+namespace Abstracciones.Modelos
 {
-    internal class APIEndPoint
+    public class APIEndPoint
     {
+        public string? UrlBase { get; set; }
+        public IEnumerable<Metodo>? Metodos { get; set; }
+
+    }
+    public class Metodo
+    {
+        public string? Nombre { get; set; }
+        public string? Valor { get; set; }
     }
 }
